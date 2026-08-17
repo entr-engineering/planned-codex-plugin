@@ -1,7 +1,7 @@
 {
   "name": "planned",
-  "version": "0.2.1",
-  "description": "Manage events in Planned and complete supported event workflows directly from Codex.",
+  "version": "0.2.2",
+  "description": "Bring Planned into your Codex workflow.",
   "author": {
     "name": "Planned",
     "url": "https://planned.com/"
@@ -12,8 +12,8 @@
   "mcpServers": "./.mcp.json",
   "interface": {
     "displayName": "Planned",
-    "shortDescription": "Manage events in Planned directly from Codex.",
-    "longDescription": "Manage events in Planned without leaving Codex. Use the tools available to your account to review and update event details, attendees, agendas, suppliers, proposals, contracts, approvals, and invoices, plus guided workflows for meeting locations and payment facilitation.",
+    "shortDescription": "Work with Planned from Codex.",
+    "longDescription": "Access your events and use the Planned tools available to your account without leaving Codex.",
     "developerName": "Planned",
     "category": "Productivity",
     "capabilities": ["Interactive", "Read", "Write"],
