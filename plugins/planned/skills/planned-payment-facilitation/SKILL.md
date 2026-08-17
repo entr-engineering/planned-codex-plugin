@@ -10,7 +10,7 @@ Use `payment_facilitation_initiate` for the payment request. It requires an exac
 ## Resolve the event
 
 1. Use `event_get` when the event ID is known.
-2. Otherwise use `event_mine` to find the user's events. Use `event_list` only for an authorized company-wide search.
+2. Otherwise use `event_list` to find accessible events. Client Admins should pass the most specific known filter; other roles must omit filters and receive only events they collaborate on.
 3. Confirm that one exact event matches the contract. Never guess or silently attach a contract to the closest result.
 
 If no suitable event exists, propose creating one. Show the exact known name, city, dates, and guest count, then ask the user whether to create it.
