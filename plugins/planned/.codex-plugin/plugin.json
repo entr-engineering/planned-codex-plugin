@@ -1,0 +1,29 @@
+{
+  "name": "planned",
+  "version": "0.2.0+codex.20260813142149",
+  "description": "Recommend meeting locations and initiate payment facilitation in Planned.",
+  "author": {
+    "name": "Planned",
+    "url": "https://planned.com/"
+  },
+  "homepage": "https://planned.com/",
+  "keywords": ["events", "where-to-meet", "payment-facilitation", "meeting-planning"],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Planned",
+    "shortDescription": "Choose a meeting city and facilitate payments.",
+    "longDescription": "Use Planned in Codex for two guided workflows: compare meeting cities and optionally create the selected event, or prepare and confirm payment facilitation from a contract attachment.",
+    "developerName": "Planned",
+    "category": "Productivity",
+    "capabilities": ["Interactive", "Read", "Write"],
+    "websiteURL": "https://planned.com/",
+    "brandColor": "#0A1013",
+    "composerIcon": "./assets/planned-icon.svg",
+    "logo": "./assets/planned-icon.svg",
+    "defaultPrompt": [
+      "Recommend where my distributed team should meet.",
+      "Start payment facilitation for this event contract."
+    ]
+  }
+}

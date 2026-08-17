@@ -1,0 +1,11 @@
+interface:
+  display_name: "Planned Where to Meet"
+  short_description: "Recommend a meeting city, then create an event"
+  default_prompt: "Use $planned-where-to-meet to recommend where my group should meet."
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "planned"
+      description: "Planned Where to Meet and event creation MCP server"
+      transport: "streamable_http"
+      url: "https://mcp.planned.com/mcp"

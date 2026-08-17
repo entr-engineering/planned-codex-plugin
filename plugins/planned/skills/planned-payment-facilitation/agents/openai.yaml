@@ -1,0 +1,11 @@
+interface:
+  display_name: "Planned Payment Facilitation"
+  short_description: "Prepare and confirm payment facilitation"
+  default_prompt: "Use $planned-payment-facilitation to start payment facilitation for my contract."
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "planned"
+      description: "Planned payment facilitation and event management MCP server"
+      transport: "streamable_http"
+      url: "https://mcp.planned.com/mcp"

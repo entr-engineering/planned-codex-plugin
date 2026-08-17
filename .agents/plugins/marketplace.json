@@ -1,0 +1,20 @@
+{
+  "name": "planned",
+  "interface": {
+    "displayName": "Planned"
+  },
+  "plugins": [
+    {
+      "name": "planned",
+      "source": {
+        "source": "local",
+        "path": "./plugins/planned"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

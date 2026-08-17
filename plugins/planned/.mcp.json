@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "planned": {
+      "type": "http",
+      "url": "https://mcp.planned.com/mcp",
+      "oauth_resource": "https://mcp.planned.com/mcp"
+    }
+  }
+}
