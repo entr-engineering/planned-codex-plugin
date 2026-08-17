@@ -1,6 +1,6 @@
 {
   "name": "planned",
-  "version": "0.2.0+codex.20260817202231",
+  "version": "0.2.1",
   "description": "Manage events in Planned and complete supported event workflows directly from Codex.",
   "author": {
     "name": "Planned",
