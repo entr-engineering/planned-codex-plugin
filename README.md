@@ -1,8 +1,19 @@
 # Planned Codex plugin
 
-Use [Planned](https://planned.com/) from Codex to choose where a distributed team should meet and to initiate payment facilitation for an event contract.
+Manage events in [Planned](https://planned.com/) without leaving Codex. Use the tools available to your account to review event information, coordinate attendees and agendas, work with suppliers and contracts, and complete supported actions directly from the conversation.
 
 ## What it does
+
+The plugin connects Codex to Planned's event-management tools. Depending on your account access, you can work with:
+
+- Events, briefs, and company details.
+- Attendees, attendee requests, and agendas.
+- Suppliers, shortlists, inquiries, and proposals.
+- Contracts, approvals, and invoices.
+
+It also includes guided workflows for meeting-location recommendations and payment facilitation.
+
+## Guided workflows
 
 ### Recommend where to meet
 

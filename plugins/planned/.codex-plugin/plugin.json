@@ -1,7 +1,7 @@
 {
   "name": "planned",
-  "version": "0.2.0+codex.20260817201856",
-  "description": "Recommend meeting locations and initiate payment facilitation in Planned.",
+  "version": "0.2.0+codex.20260817202231",
+  "description": "Manage events in Planned and complete supported event workflows directly from Codex.",
   "author": {
     "name": "Planned",
     "url": "https://planned.com/"
@@ -12,8 +12,8 @@
   "mcpServers": "./.mcp.json",
   "interface": {
     "displayName": "Planned",
-    "shortDescription": "Choose a meeting city and facilitate payments.",
-    "longDescription": "Use Planned in Codex for two guided workflows: compare meeting cities and optionally create the selected event, or prepare and confirm payment facilitation from a contract attachment.",
+    "shortDescription": "Manage events in Planned directly from Codex.",
+    "longDescription": "Manage events in Planned without leaving Codex. Use the tools available to your account to review and update event details, attendees, agendas, suppliers, proposals, contracts, approvals, and invoices, plus guided workflows for meeting locations and payment facilitation.",
     "developerName": "Planned",
     "category": "Productivity",
     "capabilities": ["Interactive", "Read", "Write"],
