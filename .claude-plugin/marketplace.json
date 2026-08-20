@@ -1,0 +1,17 @@
+{
+  "name": "planned",
+  "owner": {
+    "name": "Planned",
+    "url": "https://planned.com/"
+  },
+  "description": "Planned skills and tools for agent clients.",
+  "plugins": [
+    {
+      "name": "planned",
+      "source": "./plugins/planned",
+      "displayName": "Planned",
+      "description": "Bring Planned into your agent workflow.",
+      "category": "Productivity"
+    }
+  ]
+}

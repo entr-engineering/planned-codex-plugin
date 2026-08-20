@@ -1,0 +1,14 @@
+{
+  "name": "planned",
+  "version": "0.2.2",
+  "description": "Bring Planned into your agent workflow.",
+  "author": {
+    "name": "Planned",
+    "url": "https://planned.com/"
+  },
+  "homepage": "https://planned.com/",
+  "keywords": ["events", "where-to-meet", "payment-facilitation", "meeting-planning"],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "displayName": "Planned"
+}
